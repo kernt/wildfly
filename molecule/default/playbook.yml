@@ -26,6 +26,21 @@
         regexp: "requiretty$"
         state: absent
 
+- hosts: Debian-9
+  tasks:
+    - name: remove requiretty from /etc/sudoers
+      lineinfile:
+        dest: "/etc/sudoers"
+        regexp: "requiretty$"
+        state: absent
+
+- hosts: Ubuntu-18.04
+  tasks:
+    - name: remove requiretty from /etc/sudoers
+      lineinfile:
+        dest: "/etc/sudoers"
+        regexp: "requiretty$"
+        state: absent
 - hosts: all
   any_errors_fatal: true
   pre_tasks:

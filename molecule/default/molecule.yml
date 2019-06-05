@@ -59,6 +59,10 @@ provisioner:
         wildfly_version: 9.0.1.Final
       wildfly-centos7-10.1.0:
         wildfly_version: 10.1.0.Final
+      wildfly-Debian9-10.1.0:
+        wildfly_version: 10.1.0.Final
+      wildfly-Ubuntu18.04-10.1.0:
+        wildfly_version: 10.1.0.Final
     group_vars:
       all:
         wildfly_remove_download_file: False

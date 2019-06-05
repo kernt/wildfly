@@ -1,4 +1,3 @@
----
 # task file for wildfly
 
 - name: Install OpenJDK
