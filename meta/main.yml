@@ -6,6 +6,8 @@ galaxy_info:
   license: BSD
   min_ansible_version: 2.2
   platforms:
+  - Name: Debian
+    - 9
   - name: EL
     versions:
     - 6
